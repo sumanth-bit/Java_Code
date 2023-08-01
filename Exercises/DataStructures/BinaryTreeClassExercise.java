@@ -1,4 +1,7 @@
 package Exercises.DataStructures;
+/*
+ 1. Binary Search Tree Implementation and Recursion is used a lot
+ */
 
 import java.util.*;
 
@@ -174,7 +177,7 @@ public class BinaryTreeClassExercise{
         bt.delete(bt.root,23);
         bt.display();
 
-        Tnode ele1 = new Tnode(0);
+        Tnode ele1 = new Tnode(10);
         bt.changeNodeData(ele1);
         System.out.println(ele1);
         Tnode ele2 = ele1;// Once you assign any null value to the object then you need to initialize it with new() key word and start using it
